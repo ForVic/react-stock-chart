@@ -1,4 +1,17 @@
+@font-face { font-family: Gotham; src: url('./components/static/fonts/Gotham-Bold.otf'); }
+@font-face { font-family: Gotham; font-weight: bold; src: url('./components/static/fonts/Gotham-Black.otf')}
 * {
+  font-family: Gotham, sans-serif;
   margin: 0;
   padding: 0;
 } 
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: darkblue;
+  background-color: #0d0f40;
+  position: fixed;
+  width: 100%;
+
+}

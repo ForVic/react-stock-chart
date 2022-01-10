@@ -9,8 +9,8 @@ function App() {
   return (
     <Router>
       <nav>
-        <Link to="/"> Home </Link> 
-        <Link to="/stock"> Stock </Link> 
+        <p><Link to="/"> Home </Link> </p>
+        <p><Link to="/stock"> Stock </Link> </p>
       </nav>
       <Routes>
         <Route path="*" element={<Home />} />
