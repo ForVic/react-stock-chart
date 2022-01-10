@@ -1,16 +1,18 @@
 
 body {
+    margin-top: 50px;
     margin: 0;
     padding: 0;
     background: #f4f4f4;
 }
 
 .ticker {
+
     font-weight: bold;
     display: flex;
     justify-content: center;
     font-size: 5rem;
-    margin-top: 40px;
+    margin-top: 0px;
     
 }
 .price-time {
